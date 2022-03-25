@@ -43,6 +43,15 @@
         private $age;
         public $gender;
 
+        function __construct($h, $w, $nickname=null, $age=null, $gender="m")
+        {
+            # code...
+            $this->nickname = $nickname;
+            $this->age = $age;
+            $this->gender = $gender;
+            parent::__construct($h, $w);
+        }
+
 
         public function setAge($age)  //seter ทำหน้าที่ในการ เซทค่าข้อมูล
         {

@@ -23,10 +23,10 @@
 
                     $champ = new Dietary(180, 70);
 
-                    $jane = new Dietary(165, 58);
-                    $jane->nickname = "เจน";
-                    $jane->setAge(22);
-                    $jane->gender = "f";
+                    $jane = new Dietary(165, 58, "เจน", 22, "f");
+                    // $jane->nickname = "เจน";
+                    // $jane->setAge(22);
+                    // $jane->gender = "f";
 
                     
                     echo "Peak มีความสูง {$peak->height} Cm. และมีน้ำหนัก {$peak->getWeight()} กก. BMI: {$peak->cal_BMI()} อยู่ในเกณฑ์: {$peak->fat()} <hr>";
