@@ -32,8 +32,8 @@
                     <tbody>
                          <?php  
                               use App\Model\Person; 
-                              
-                              $personObj = new Person();
+
+                              // $personObj = new Person();
                               $persons = $personObj->getAllPersons();
                               $n = 0;
 

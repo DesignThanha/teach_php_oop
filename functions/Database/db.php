@@ -10,14 +10,14 @@
           private $password = "";
           private $dbName = "learn_db";
 
-          protected $pdo;
+          public $pdo;
 
           function __construct(){
                $this->pdo = $this->connect();
           }
           
 
-          protected function connect()
+          public function connect()
           {
                $dsn = "mysql:host={$this->host};dbname={$this->dbName}";
                $pdo = new PDO($dsn, $this->user, $this->password);

@@ -4,7 +4,7 @@ namespace App\Model;
 
 use App\Database\DB;
 
-class Person extends DB {
+class Person extends DB{
 
      public function getAllPersons(){
 
