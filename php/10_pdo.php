@@ -34,7 +34,8 @@
                               use App\Model\Person; 
 
                               // $personObj = new Person();
-                              $persons = $personObj->getAllPersons();
+                              $p = new Person();
+                              $persons = $p->getAllPersons();
                               $n = 0;
 
                               foreach ($persons as $person) {
