@@ -1,0 +1,17 @@
+{
+    "name": "design/learnphp",
+    "authors": [
+        {
+            "name": "Design Thanha",
+            "email": "design.tanha@gmail.com"
+        }
+    ],
+    "require": {
+        "claviska/simpleimage": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "functions/"
+        }
+    }
+}
